@@ -56,7 +56,7 @@ body{
   }
 
   .btn:disabled{
-    cursor: no-drop;
+    cursor: no-drop; 
   }
 
   #next-btn{ 
