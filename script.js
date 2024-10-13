@@ -102,10 +102,10 @@ function selectAnswer(e){
 
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
-            button.classList.add("corrrect");
+            button.classList.add("correct");
         }
         button.disabled = true;
-    })
+    });
     nextButton.style.display = "block";
 }
 
